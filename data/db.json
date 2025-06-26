@@ -1,0 +1,38 @@
+[
+  {
+    "name": "shash",
+    "description": "jsaksa",
+    "price": 10,
+    "id": "7d7d5f95-2591-4a46-86df-42649653baab"
+  },
+  {
+    "name": "sasa",
+    "description": "sasa",
+    "price": 1,
+    "id": "70088731-d59d-4a01-aa32-a6fbcd476a7c"
+  },
+  {
+    "name": "teste",
+    "description": "teste",
+    "price": 10,
+    "id": "38d1d8ee-2762-4adb-a16e-cfd036ec0a51"
+  },
+  {
+    "name": "sajs",
+    "description": "skmams",
+    "price": 15,
+    "id": "77cd13ac-c94c-4279-8c31-f53024a2f8f0"
+  },
+  {
+    "name": "jsnajnsaj",
+    "description": "snajsa",
+    "price": 15,
+    "id": "8649e125-168a-48f2-ba63-cd81149e7bde"
+  },
+  {
+    "name": "jsnajns",
+    "description": "sajjk",
+    "price": 15,
+    "id": "19fcf9d7-f29b-4dda-bb7e-880d075f3fea"
+  }
+]
