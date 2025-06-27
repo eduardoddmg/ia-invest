@@ -11,21 +11,20 @@ export default function Home() {
 
   const parametrosCripto = `
 Gere sugestões de investimento em criptomoedas com base nos seguintes critérios:
-1. Volume de negociação nas últimas 24h acima de $50 milhões.
-2. Alta de pelo menos 5% nos últimos 3 dias.
-3. Projeto com forte presença em redes sociais.
-4. Listada nas exchanges Binance ou Coinbase.
-5. Market cap inferior a $10 bilhões (altcoins promissoras).
-  `;
+1. Capitalização de mercado de até R$200.000.000,00.
+2. Fornecimento máximo de até 500 milhões de tokens.
+3. Mais de 5.000 holders.
+4. Uma comunidade ativa.
+`;
 
   const parametrosAcoes = `
 Gere sugestões de ações da bolsa com base nos seguintes critérios:
-1. Volume médio diário acima de R$10 milhões.
-2. P/L abaixo de 15.
-3. Setor de tecnologia, energia ou financeiro.
-4. Empresa com crescimento de receita nos últimos 3 trimestres.
-5. Dividend Yield superior a 4%.
-  `;
+1. VPA maior que 2 vezes o valor da ação.
+2. Dívida líquida / patrimônio menor ou igual a 1.
+3. Dividend yield maior que 10%.
+4. P/L menor que 10.
+5. EV/EBIT menor que 10.
+`;
 
   async function enviar(tipo: 'cripto' | 'acao') {
     setLoading(true);
